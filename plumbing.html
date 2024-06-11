@@ -67,18 +67,18 @@
     .toggle-button {
       position: absolute;
       top: 165px;
-      left: 160px;
-      /*right: 10px; /* Adjust as needed */
+      /* Adjusted left position based on sidebar width */
+      left: 150px;
       background-color: #333;
       color: #fff;
       border: none;
       cursor: pointer;
       padding: 5px 5px;
-      transition: right 0.1s;
+      transition: left 0.1s;
     }
 
     .sidebar.collapsed .toggle-button {
-      right: 10px;
+      left: 10px;
     }
 
     main h2 {
@@ -110,9 +110,6 @@
       </ul>
     </aside>
 
-    <!-- Toggle button -->
-    <button class="toggle-button" onclick="toggleSidebar()">&#9776;</button>
-
     <!-- Main Content -->
     <main class="main-content">
       <section id="services">
@@ -138,6 +135,9 @@
         <p>"Reliable and affordable. Highly recommended!" - Another satisfied customer</p>
       </section-->
     </main>
+
+    <!-- Toggle button -->
+    <button class="toggle-button" onclick="toggleSidebar()">&#9776;</button>
   </div>
   
   <!-- Footer -->
@@ -170,6 +170,12 @@
     function toggleSidebar() {
       var sidebar = document.querySelector('.sidebar');
       sidebar.classList.toggle('collapsed');
+      var toggleButton = document.querySelector('.toggle-button');
+      if (sidebar.classList.contains('collapsed')) {
+        toggleButton.style.left = '10px';
+      } else {
+        toggleButton.style.left = '150px';
+      }
     }
   </script>
 </body>

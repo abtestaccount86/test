@@ -51,6 +51,7 @@
       cursor: pointer;
       padding: 5px 10px;
       transition: right .3s;
+      z-index: 1; /* Ensure button appears on top of sidebar */
     }
     .sidebar.collapsed .toggle {
       right: -60px;
@@ -71,13 +72,13 @@
   
   <div class="container">
     <aside class="sidebar">
-      <button class="toggle" onclick="toggleSidebar()">&#9776;</button>
+      <button class="toggle" onclick="toggleSidebar()">&#9776;</button> <!-- Use "&#9776;" for the hamburger icon -->
       <h2>Quick Links</h2>
       <ul>
         <li><a href="#services">Our Services</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
+        <!-- li><a href="#testimonials">Testimonials</a></li -->
       </ul>
     </aside>
     <main class="main-content">

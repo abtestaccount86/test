@@ -67,15 +67,16 @@
 
     .toggle-button {
       position: fixed;
-      top: 140px;  /* Adjusted left position based on sidebar width */
-      left: 10px;
-      background-color: #696060;
+      top: 145px; /* Adjust top position */
+      left: 10px; /* Adjust left position */
+      background-color: #333;
       color: #fff;
       border: none;
       cursor: pointer;
-      padding: 5px 5px;
-      transition: left 0.1s;
-    }
+      padding: 5px 10px;
+      transition: left 0.3s; /* Add transition for smooth animation */
+      z-index: 999; /* Ensure it's above other content */
+}
 
     .sidebar.collapsed .toggle-button {
       left: 10px;

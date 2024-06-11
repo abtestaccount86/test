@@ -6,15 +6,97 @@
   <title>[Your Business Name] - Plumbing Services</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    body{margin:0;padding:0;font-family:Arial,sans-serif}header,footer{background:#f8f8f8;padding:20px;text-align:center}.container{display:flex}.sidebar{width:250px;background:#f4f4f4;padding:15px;transition:width .3s}.sidebar.collapsed{width:0;padding:0;overflow:hidden}.sidebar h2{font-size:1.5em}.sidebar ul{list-style:none;padding:0}.main-content{flex:1;padding:20px}.toggle{position:absolute;top:10px;right:-30px;background:#333;color:#fff;border:none;cursor:pointer;padding:5px 10px;transition:right .3s}.sidebar.collapsed .toggle{right:-60px}.main-content h2{font-size:2em}.main-content p{line-height:1.6}
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header, footer {
+      background: #f8f8f8;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+    }
+    .sidebar {
+      width: 250px;
+      background: #f4f4f4;
+      padding: 15px;
+      transition: width .3s;
+    }
+    .sidebar.collapsed {
+      width: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    .sidebar h2 {
+      font-size: 1.5em;
+    }
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    .main-content {
+      flex: 1;
+      padding: 20px;
+    }
+    .toggle {
+      position: absolute;
+      top: 10px;
+      right: -30px;
+      background: #333;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      padding: 5px 10px;
+      transition: right .3s;
+    }
+    .sidebar.collapsed .toggle {
+      right: -60px;
+    }
+    .main-content h2 {
+      font-size: 2em;
+    }
+    .main-content p {
+      line-height: 1.6;
+    }
   </style>
 </head>
 <body>
-  <header><h1>Welcome to [Your Business Name]</h1><p>Your trusted plumbing services provider</p></header>
+  <header>
+    <h1>Welcome to [Your Business Name]</h1>
+    <p>Your trusted plumbing services provider</p>
+  </header>
+  
   <div class="container">
-    <aside class="sidebar"><button class="toggle" onclick="document.querySelector('.sidebar').classList.toggle('collapsed')">&#9776;</button><h2>Quick Links</h2><ul><li><a href="#services">Our Services</a></li><li><a href="#about">About Us</a></li><li><a href="#contact">Contact Us</a></li><li><a href="#testimonials">Testimonials</a></li></ul></aside>
-    <main class="main-content"><section id="services"><h2>Our Plumbing Services</h2><p>We offer a wide range of plumbing services. From leak repairs to full installations, our experienced plumbers are here to help.</p></section><section id="about"><h2>About Us</h2><p>[Your Business Name] has been serving for over 20 years, committed to top-quality service.</p></section><section id="contact"><h2>Contact Us</h2><p>Phone: (123) 456-7890<br>Email: info@yourwebsite.com<br>Address: 123 Main St, [Your City], [Your State], 12345</p></section></section></main>
+    <aside class="sidebar">
+      <button class="toggle" onclick="document.querySelector('.sidebar').classList.toggle('collapsed')">&#9776;</button>
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="#services">Our Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+      </ul>
+    </aside>
+    <main class="main-content">
+      <section id="services">
+        <h2>Our Plumbing Services</h2>
+        <p>We offer a wide range of plumbing services. From leak repairs to full installations, our experienced plumbers are here to help.</p>
+      </section>
+      <section id="about">
+        <h2>About Us</h2>
+        <p>[Your Business Name] has been serving for over 20 years, committed to top-quality service.</p>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890<br>Email: info@yourwebsite.com<br>Address: 123 Main St, [Your City], [Your State], 12345</p>
+      </section>
+    </main>
   </div>
-  <footer><p>&copy; 2024 [Your Business Name]. All rights reserved.</p></footer>
+  <footer>
+    <p>&copy; 2024 [Your Business Name]. All rights reserved.</p>
+  </footer>
 </body>
 </html>

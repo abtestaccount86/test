@@ -3,171 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Looking for the best plumber in [Your City]? [Your Business Name] offers reliable and affordable plumbing services. Call us today!">
-  <title>[Your Business Name] - Plumbing Services in [Your City]</title>
+  <title>[Your Business Name] - Plumbing Services</title>
   <link rel="stylesheet" href="styles.css">
   <style>
-    /* CSS for styling the sidebar and main content */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    header, footer {
-      background-color: #f8f8f8;
-      padding: 20px;
-      text-align: center;
-    }
-
-    .container {
-      display: flex;
-      transition: margin-left 0.3s;
-    }
-
-    .sidebar {
-      width: 250px;
-      background-color: #f4f4f4;
-      padding: 15px;
-      transition: width 0.3s;
-      position: relative;
-    }
-
-    .sidebar.collapsed {
-      width: 0;
-      padding: 0;
-      overflow: hidden;
-    }
-
-    .sidebar h2 {
-      font-size: 1.5em;
-    }
-
-    .sidebar ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .sidebar ul li {
-      margin: 10px 0;
-    }
-
-    .sidebar ul li a {
-      text-decoration: none;
-      color: #333;
-    }
-
-    .main-content {
-      flex: 1;
-      padding: 20px;
-      transition: margin-left 0.3s;
-    }
-
-    .toggle-button {
-      position: absolute;
-      top: 10px;
-      right: -30px;
-      background-color: #333;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-      padding: 5px 10px;
-      transition: right 0.3s;
-    }
-
-    .sidebar.collapsed .toggle-button {
-      right: -60px;
-    }
-
-    main h2 {
-      font-size: 2em;
-    }
-
-    main p {
-      line-height: 1.6;
-    }
+    body{margin:0;padding:0;font-family:Arial,sans-serif}header,footer{background:#f8f8f8;padding:20px;text-align:center}.container{display:flex}.sidebar{width:250px;background:#f4f4f4;padding:15px;transition:width .3s}.sidebar.collapsed{width:0;padding:0;overflow:hidden}.sidebar h2{font-size:1.5em}.sidebar ul{list-style:none;padding:0}.main-content{flex:1;padding:20px}.toggle{position:absolute;top:10px;right:-30px;background:#333;color:#fff;border:none;cursor:pointer;padding:5px 10px;transition:right .3s}.sidebar.collapsed .toggle{right:-60px}.main-content h2{font-size:2em}.main-content p{line-height:1.6}
   </style>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Welcome to [Your Business Name]</h1>
-    <p>Your trusted plumbing services provider in [Your City]</p>
-  </header>
-  
-  <!-- Main content with sidebar -->
+  <header><h1>Welcome to [Your Business Name]</h1><p>Your trusted plumbing services provider</p></header>
   <div class="container">
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <button class="toggle-button" onclick="toggleSidebar()">&#9776;</button>
-      <h2>Quick Links</h2>
-      <ul>
-        <li><a href="#services">Our Services</a></li>
-        <li><a href="#about">About Us</a></li>
-        <li><a href="#contact">Contact Us</a></li>
-        <li><a href="#testimonials">Testimonials</a></li>
-      </ul>
-    </aside>
-
-    <!-- Main Content -->
-    <main class="main-content">
-      <section id="services">
-        <h2>Our Plumbing Services</h2>
-        <p>We offer a wide range of plumbing services to meet all your needs. From leak repairs to full installations, our experienced plumbers are here to help.</p>
-      </section>
-
-      <section id="about">
-        <h2>About Us</h2>
-        <p>[Your Business Name] has been serving [Your City] for over 20 years. We are committed to providing top-quality service and customer satisfaction.</p>
-      </section>
-
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: info@yourwebsite.com</p>
-        <p>Address: 123 Main St, [Your City], [Your State], 12345</p>
-      </section>
-
-      <section id="testimonials">
-        <h2>Testimonials</h2>
-        <p>"Best plumbing service in town!" - A satisfied customer</p>
-        <p>"Reliable and affordable. Highly recommended!" - Another satisfied customer</p>
-      </section>
-    </main>
+    <aside class="sidebar"><button class="toggle" onclick="document.querySelector('.sidebar').classList.toggle('collapsed')">&#9776;</button><h2>Quick Links</h2><ul><li><a href="#services">Our Services</a></li><li><a href="#about">About Us</a></li><li><a href="#contact">Contact Us</a></li><li><a href="#testimonials">Testimonials</a></li></ul></aside>
+    <main class="main-content"><section id="services"><h2>Our Plumbing Services</h2><p>We offer a wide range of plumbing services. From leak repairs to full installations, our experienced plumbers are here to help.</p></section><section id="about"><h2>About Us</h2><p>[Your Business Name] has been serving for over 20 years, committed to top-quality service.</p></section><section id="contact"><h2>Contact Us</h2><p>Phone: (123) 456-7890<br>Email: info@yourwebsite.com<br>Address: 123 Main St, [Your City], [Your State], 12345</p></section><section id="testimonials"><h2>Testimonials</h2><p>"Best service in town!" - A satisfied customer<br>"Reliable and affordable. Highly recommended!" - Another satisfied customer</p></section></main>
   </div>
-  
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2024 [Your Business Name]. All rights reserved.</p>
-  </footer>
-  
-  <!-- Structured Data for SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "LocalBusiness",
-    "name": "[Your Business Name]",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "123 Main St",
-      "addressLocality": "[Your City]",
-      "addressRegion": "[Your State]",
-      "postalCode": "12345"
-    },
-    "telephone": "(123) 456-7890",
-    "url": "https://www.yourwebsite.com",
-    "image": "https://www.yourwebsite.com/images/plumbing-services.jpg",
-    "description": "Looking for the best plumber in [Your City]? [Your Business Name] offers reliable and affordable plumbing services. Call us today!"
-  }
-  </script>
-
-  <!-- JavaScript for Collapsible Sidebar -->
-  <script>
-    function toggleSidebar() {
-      var sidebar = document.querySelector('.sidebar');
-      sidebar.classList.toggle('collapsed');
-    }
-  </script>
+  <footer><p>&copy; 2024 [Your Business Name]. All rights reserved.</p></footer>
 </body>
 </html>

@@ -20,7 +20,7 @@
       display: flex;
     }
     .sidebar {
-      width: 200px;
+      width: 150px;
       background: #f4f4f4;
       padding: 15px;
       transition: width .3s;
@@ -71,12 +71,13 @@
   
   <div class="container">
     <aside class="sidebar">
-      <button class="toggle" onclick="document.querySelector('.sidebar').classList.toggle('collapsed')">&#9776;</button>
+      <button class="toggle" onclick="toggleSidebar()">&#9776;</button>
       <h2>Quick Links</h2>
       <ul>
         <li><a href="#services">Our Services</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
       </ul>
     </aside>
     <main class="main-content">
@@ -97,5 +98,11 @@
   <footer>
     <p>&copy; 2024 [Your Business Name]. All rights reserved.</p>
   </footer>
+
+  <script>
+    function toggleSidebar() {
+      document.querySelector('.sidebar').classList.toggle('collapsed');
+    }
+  </script>
 </body>
 </html>

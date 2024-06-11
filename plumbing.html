@@ -67,7 +67,7 @@
     .toggle-button {
       position: absolute;
       top: 10px;
-      right: -30px;
+      right: 10px; /* Adjust as needed */
       background-color: #333;
       color: #fff;
       border: none;
@@ -77,7 +77,7 @@
     }
 
     .sidebar.collapsed .toggle-button {
-      right: -60px;
+      right: 10px;
     }
 
     main h2 {
@@ -100,7 +100,6 @@
   <div class="container">
     <!-- Sidebar -->
     <aside class="sidebar">
-      <button class="toggle-button" onclick="toggleSidebar()">&#9776;</button>
       <h2>Quick Links</h2>
       <ul>
         <li><a href="#services">Our Services</a></li>
@@ -109,6 +108,9 @@
         <!--li><a href="#testimonials">Testimonials</a></li-->
       </ul>
     </aside>
+
+    <!-- Toggle button -->
+    <button class="toggle-button" onclick="toggleSidebar()">&#9776;</button>
 
     <!-- Main Content -->
     <main class="main-content">
@@ -133,9 +135,9 @@
         <h2>Testimonials</h2>
         <p>"Best plumbing service in town!" - A satisfied customer</p>
         <p>"Reliable and affordable. Highly recommended!" - Another satisfied customer</p>
-      </section>
+      </section-->
     </main>
-    </div-->
+  </div>
   
   <!-- Footer -->
   <footer>

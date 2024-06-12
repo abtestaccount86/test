@@ -16,7 +16,7 @@ header, footer {
   top: 50%; /* Align to the middle vertically */
   right: 10px; /* Distance from the right side */
   transform: translateY(-50%); /* Center vertically */
-  width: 100px; /* Adjust width as needed */
+  width: 10px; /* Adjust width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 

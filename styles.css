@@ -5,10 +5,18 @@ body {
   box-sizing: border-box;
 }
 
-header, footer{
+header {
   background-color: #444444;
   padding: 10px;
+  color: white;
   text-align: center;
+}
+
+footer {
+  background-color: #444444;
+  padding: 10px;
+  color: white;
+  text-align: left;
 }
 
 .container {

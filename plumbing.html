@@ -10,8 +10,8 @@
 <body>
   <!-- Header -->
   <header>
-    <h1>Welcome to [Your Business Name]</h1>
-    <p>Your trusted plumbing services provider in [Your City]</p>
+    <h1>[Name]</h1>
+    <p>[City]</p>
   </header>
   
   <!-- Main content with sidebar -->
@@ -29,20 +29,20 @@
     <!-- Main Content -->
     <main class="main-content">
       <section id="services">
-        <h2>Our Plumbing Services</h2>
-        <p>We offer a wide range of plumbing services to meet all your needs. From leak repairs to full installations, our experienced plumbers are here to help.</p>
+        <h2>[HEADER]</h2>
+        <p>[CONTENT]</p>
       </section>
 
       <section id="about">
-        <h2>About Us</h2>
-        <p>[Your Business Name] has been serving [Your City] for over 20 years. We are committed to providing top-quality service and customer satisfaction.</p>
+        <h2>[HEADER]</h2>
+        <p>[CONTENT]</p>
       </section>
 
       <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Phone: (123) 456-7890</p>
-        <p>Email: info@yourwebsite.com</p>
-        <p>Address: 123 Main St, [Your City], [Your State], 12345</p>
+        <h2>[HEADER]</h2>
+        <p>[PHONE]</p>
+        <p>[EMAIL]</p>
+        <p>[ADDRESS]</p>
       </section>
     </main>
 
@@ -71,7 +71,7 @@
     "telephone": "(123) 456-7890",
     "url": "https://www.yourwebsite.com",
     "image": "https://www.yourwebsite.com/images/plumbing-services.jpg",
-    "description": "Looking for the best plumber in [Your City]? [Your Business Name] offers reliable and affordable plumbing services. Call us today!"
+    "description": "[CONTENT]"
   }
   </script>
 
@@ -80,12 +80,6 @@
     function toggleSidebar() {
       var sidebar = document.querySelector('.sidebar');
       sidebar.classList.toggle('collapsed');
-      var toggleButton = document.querySelector('.toggle-button');
-      if (sidebar.classList.contains('collapsed')) {
-        toggleButton.style.left = '10px';
-      } else {
-        toggleButton.style.left = '150px';
-      }
     }
   </script>
 </body>

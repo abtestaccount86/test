@@ -35,14 +35,15 @@ header, footer {
 }
 
 .sidebar ul li {
-  margin: 20px 0;
+  margin: 5px 0; /* Reduce the vertical margin */
+  padding: 0; /* Ensure no padding */
 }
 
 .sidebar ul li a {
   text-decoration: none;
-  color: white;
-  padding: 5px 0; /* Adjust padding to reduce space within links */
-  display: block; /* Ensure the entire link area is clickable */
+  color: white; /* Maintain text color as white */
+  padding: 5px 0; /* Reduce the padding */
+  display: block; /* Ensure links occupy the full width */
 }
 
 .main-content {

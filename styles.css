@@ -37,9 +37,9 @@ header, footer {
 
 .sidebar h2 {
   font-size: 1.5em;
-  text-decoration: underline; /* Add underline */
-  margin-bottom: 5px; /* Adjust margin as needed */
-  margin-top: 5px; /* Adjust margin from the top */
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 

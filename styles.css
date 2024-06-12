@@ -16,7 +16,7 @@ header, footer {
   top: 0; /* Align to the top */
   right: 0; /* Align to the right */
   width: auto; /* Adjust width as needed */
-  height: 100px; /* Set the desired height */
+  height: 10px; /* Set the desired height */
   z-index: 999; /* Ensure it's above other content */
 }
 

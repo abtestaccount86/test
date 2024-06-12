@@ -11,6 +11,15 @@ header, footer {
   color: white;
 }
 
+.header-image {
+  position: absolute;
+  top: 50%; /* Align to the middle vertically */
+  right: 10px; /* Distance from the right side */
+  transform: translateY(-50%); /* Center vertically */
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
 .container {
   display: flex;
   transition: margin-left 0.3s;

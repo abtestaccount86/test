@@ -39,6 +39,7 @@ header, footer {
 
 .sidebar ul li a {
   text-decoration: none;
+  text-decoration: underline;
   color: white;
 }
 
@@ -53,7 +54,6 @@ header, footer {
 
 main h2 {
   font-size: 2em;
-  text-decoration: underline;
 }
 
 main p {

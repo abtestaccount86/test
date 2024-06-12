@@ -36,7 +36,7 @@ header, footer {
 
 .main-content {
   flex: 1;
-  padding: 20px;}
+  padding: 10px;}
 
 .toggle-button {
   display: none;} /* Hide the toggle button */

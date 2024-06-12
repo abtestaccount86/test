@@ -22,6 +22,7 @@ header, footer {
 
 .sidebar h2 {
   font-size: 1.5em;}
+  text-decoration: underline; /* Underline the text */
 
 .sidebar ul {
   list-style-type: none;

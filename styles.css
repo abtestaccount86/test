@@ -25,7 +25,8 @@ header, footer {
 }
 
 .sidebar h2 {
-  font-size: 1.5em;
+  font-size: 1.0em;
+  text-decoration: underline;
 }
 
 .sidebar ul {

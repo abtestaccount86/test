@@ -6,13 +6,6 @@
   <meta name="description" content="[Content]">
   <title>[Content]</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    .iframe-container {
-      width: 100%;
-      height: 80vh; /* Adjust the height as needed */
-      border: none;
-    }
-  </style>
 </head>
 <body>
   <!-- Header -->
@@ -28,16 +21,13 @@
     <aside class="sidebar">
       <!--h2>Quick Links</h2-->
       <ul>
-        <li><a href="#" onclick="openInIframe('https://portal.capturis.com/web/cihtm/cih.htm?thank=yes')">Capturis Utility Bill Pay</a></li>
-        <li><a href="#" onclick="openInIframe('https://app.smartsheet.com/b/home')">Smartsheet</a></li>
-        <li><a href="#" onclick="openInIframe('#contact')">LINK</a></li>
+        <li><a href="https://portal.capturis.com/web/cihtm/cih.htm?thank=yes" target="_blank">Capturis Utility Bill Pay</a></li>
+        <li><a href="https://app.smartsheet.com/b/home" target="_blank">Smartsheet</a></li>
       </ul>
     </aside>
 
     <!-- Main Content -->
     <main class="main-content">
-      <iframe id="content-frame" class="iframe-container"></iframe>
-
       <section id="services">
         <h2>[H1]</h2>
         <p>[P1]</p>
@@ -58,12 +48,6 @@
   <!-- Footer -->
   <!--footer>
     <p>&copy; 2024 [NAME]. All rights reserved.</p>
-  </footer-->
-
-  <script>
-    function openInIframe(url) {
-      document.getElementById('content-frame').src = url;
-    }
-  </script>
+</footer-->
 </body>
 </html>

@@ -13,10 +13,10 @@ header, footer {
 
 .header-image {
   position: fixed; /* Position the image relative to the viewport */
-  top: 0; /* Align to the top */
-  right: 0; /* Align to the right */
-  width: 10px; /* Adjust width as needed */
-  height: 10px; /* Set the desired height */
+  top: 10px; /* Align to the top */
+  right: 10px; /* Align to the right */
+  width: 50px; /* Adjust width as needed */
+  height: auto; /* Set the desired height */
   /*z-index: 999; /* Ensure it's above other content */
 }
 

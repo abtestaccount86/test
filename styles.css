@@ -13,7 +13,7 @@ header, footer {
 
 .container {
   display: flex;
-  transition: margin-left 0.3s;
+  transition: margin-left 0.1s;
 }
 
 .sidebar {

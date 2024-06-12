@@ -6,89 +6,6 @@
   <meta name="description" content="[Content]">
   <title>[Content]</title>
   <link rel="stylesheet" href="styles.css">
-  <style>
-    /* CSS for styling the sidebar and main content */
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    header, footer {
-      background-color: #f8f8f8;
-      padding: 10px;
-      text-align: left;
-    }
-
-    .container {
-      display: flex;
-      transition: margin-left 0.3s;
-    }
-
-    .sidebar {
-      width: 150px;
-      background-color: #060606;
-      color: white; /* Set the text color to white */
-      padding: 15px;
-      transition: width 0.1s;
-      position: relative;
-    }
-
-    .sidebar.collapsed {
-      width: 0px;
-      padding: 0px;
-      overflow: hidden;
-    }
-
-    .sidebar h2 {
-      font-size: 1.5em;
-    }
-
-    .sidebar ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .sidebar ul li {
-      margin: 10px 0;
-    }
-
-    .sidebar ul li a {
-      text-decoration: none;
-      color: white; /* Set the text color to white */
-    }
-
-    .main-content {
-      flex: 1;
-      padding: 20px;
-      transition: margin-left 0.1s;
-    }
-
-    .toggle-button {
-      position: fixed;
-      top: 135px; /* Adjust top position */
-      left: 10px; /* Adjust left position */
-      background-color: #060606;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-      padding: 5px 7px;
-      transition: left 0.1s; /* Add transition for smooth animation */
-}
-
-    .sidebar.collapsed .toggle-button {
-      left: 10px;
-    }
-
-    main h2 {
-      font-size: 2em;
-    }
-
-    main p {
-      line-height: 1.6;
-    }
-  </style>
 </head>
 <body>
   <!-- Header -->
@@ -106,7 +23,6 @@
         <li><a href="#services">Our Services</a></li>
         <li><a href="#about">About Us</a></li>
         <li><a href="#contact">Contact Us</a></li>
-        <!--li><a href="#testimonials">Testimonials</a></li-->
       </ul>
     </aside>
 
@@ -128,12 +44,6 @@
         <p>Email: info@yourwebsite.com</p>
         <p>Address: 123 Main St, [Your City], [Your State], 12345</p>
       </section>
-
-      <!--section id="testimonials">
-        <h2>Testimonials</h2>
-        <p>"Best plumbing service in town!" - A satisfied customer</p>
-        <p>"Reliable and affordable. Highly recommended!" - Another satisfied customer</p>
-      </section-->
     </main>
 
     <!-- Toggle button -->

@@ -20,7 +20,7 @@ header, footer {
   width: 150px;
   background-color: #060606;
   color: white;
-  padding: 15px;
+  padding: 20px;
   position: relative;
 }
 
@@ -34,7 +34,7 @@ header, footer {
 }
 
 .sidebar ul li {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .sidebar ul li a {

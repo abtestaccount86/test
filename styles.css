@@ -59,7 +59,7 @@ header, footer {
 .toggle-button {
   position: fixed;
   top: 100px;
-  left: 50px;
+  left: 10px;
   background-color: #060606;
   color: #fff;
   border: none;

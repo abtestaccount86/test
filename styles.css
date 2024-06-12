@@ -39,7 +39,7 @@ header, footer {
 
 .sidebar ul li {
   margin: 5px 0; /* Reduce the vertical margin */
-  line-height: 0.5; /* Adjust line height for more compact spacing */
+  line-height: 1.0; /* Adjust line height for more compact spacing */
 }
 
 .sidebar ul li a {

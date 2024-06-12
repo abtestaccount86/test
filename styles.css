@@ -28,7 +28,7 @@ header, footer {
   font-size: 1.5em;
   text-decoration: underline; /* Add underline */
   margin-bottom: 5px; /* Adjust margin as needed */
-  margin-top: 0; /* Adjust margin from the top */
+  margin-top: 5px; /* Adjust margin from the top */
 }
 
 

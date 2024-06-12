@@ -16,7 +16,7 @@ header, footer {
   top: 0; /* Align to the middle vertically */
   right: 0; /* Distance from the right side */
   width: auto; /* Adjust width as needed */
-  height: 100%; /* Maintain aspect ratio */
+  height: 10%; /* Maintain aspect ratio */
 }
 
 .container {

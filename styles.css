@@ -5,8 +5,14 @@ body {
   box-sizing: border-box;
 }
 
-header, footer {
-  background-color: #f8f8f8;
+header {
+  background-color: #444444;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #444444;
   padding: 10px;
   text-align: left;
 }

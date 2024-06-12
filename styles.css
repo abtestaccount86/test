@@ -13,11 +13,10 @@ header, footer {
 
 .header-image {
   position: absolute;
-  top: 50%; /* Align to the middle vertically */
-  right: 10px; /* Distance from the right side */
-  transform: translateY(-50%); /* Center vertically */
-  width: 10px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
+  top: 0; /* Align to the middle vertically */
+  right: 0; /* Distance from the right side */
+  width: auto; /* Adjust width as needed */
+  height: 100%; /* Maintain aspect ratio */
 }
 
 .container {

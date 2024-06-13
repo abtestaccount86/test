@@ -11,8 +11,17 @@ header, footer {
   color: white;
 }
 
+.header-image {
+  position: fixed; /* Position the image relative to the viewport */
+  top: 10px; /* Align to the top */
+  right: 10px; /* Align to the right */
+  width: 50px; /* Adjust width as needed */
+  height: auto; /* Set the desired height */
+}
+
 .container {
   display: flex;
+  transition: margin-left 0.3s;
   min-height: 100vh;
 }
 
@@ -21,6 +30,14 @@ header, footer {
   background-color: #060606;
   color: white;
   padding: 10px 15px;
+  position: relative;
+}
+
+.sidebar h2 {
+  font-size: 1.5em;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .sidebar ul {
@@ -49,19 +66,26 @@ header, footer {
 
 .content-sections, .calendar {
   flex: 1; /* Each takes 50% of the remaining space */
+  min-width: 0; /* Allow flex items to shrink properly */
 }
 
 .content-sections {
-  width: 60%; /* Ensure equal width */
+  width: 50%; /* Ensure equal width */
 }
 
 .calendar {
-  width: 40%; /* Ensure equal width */
+  width: 50%; /* Ensure equal width */
 }
 
 .calendar iframe {
   width: 100%; /* Make the iframe responsive within its container */
   height: 600px;
+}
+
+.content-sections p {
+  word-wrap: break-word; /* Ensure long words break to fit the box */
+  overflow-wrap: break-word; /* Ensure long words break to fit the box */
+  white-space: normal; /* Prevent text from overflowing */
 }
 
 main h2 {
@@ -70,7 +94,4 @@ main h2 {
 
 main p {
   line-height: 1.0;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
-  white-space: normal;
 }

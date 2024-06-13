@@ -19,7 +19,8 @@ header, footer {
 }
   
 .header-image {
-  display: flex; /* Position the image relative to the viewport */
+  postition: fixed; /* Position the image relative to the viewport */
+  justify-content: space-between;
   top: 10px; /* Align to the top */
   right: 10px; /* Align to the right */
   width: 150px; /* Adjust width as needed */

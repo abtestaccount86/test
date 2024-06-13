@@ -44,10 +44,19 @@ header, footer {
   display: flex;
   flex: 1;
   padding: 5px;
+  gap: 20px; /* Add space between content and calendar */
 }
 
 .content-sections, .calendar {
   flex: 1; /* Each takes 50% of the remaining space */
+}
+
+.content-sections {
+  width: 50%; /* Ensure equal width */
+}
+
+.calendar {
+  width: 50%; /* Ensure equal width */
 }
 
 .calendar iframe {

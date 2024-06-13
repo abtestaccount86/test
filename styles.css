@@ -72,7 +72,7 @@ header, footer {
 }
 
 .calendar {
-  flex: 1; /* Allocate space for the calendar */
+  flex: 2; /* Allocate space for the calendar */
 }
 
 .calendar iframe {

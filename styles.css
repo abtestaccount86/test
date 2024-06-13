@@ -66,7 +66,7 @@ header, footer {
 }
 
 .content-sections {
-  flex: 1;
+  flex: 1.5;
   width: 50%;
   padding-right: 10px;
   word-wrap: break-word; /* Ensure long words break to fit within the container */

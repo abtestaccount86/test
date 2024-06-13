@@ -10,7 +10,7 @@ header, footer {
   justify-content: space-between;
   align-items: center;
   background-color: #444444;
-  padding: 2px;
+  padding: 0 0 2px 225px;
   color: white;
 }
 

@@ -66,8 +66,8 @@ header, footer {
 }
 
 .content-sections {
-  flex: 1;
-  width: 60%;
+  flex: 3;
+  /*width: 50%;*/
   padding-right: 20px;
   word-wrap: break-word; /* Ensure long words break to fit within the container */
   overflow-wrap: break-word; /* For additional support in all browsers */
@@ -75,13 +75,13 @@ header, footer {
 }
 
 .calendar {
-  flex: 1;
-  width: 40%;
+  flex: 2;
+ /* width: 50%;*/
 }
 
 .calendar iframe {
   width: 100%;
-  height: 600px; /* Adjust the height as needed */
+  /*height: 600px;*/
 }
 
 main h2 {

@@ -31,7 +31,7 @@ header, footer {
 
 .sidebar {
   width: 200px;
-  /*height: 200px;*/
+  height: 100vh;
   background-color: #060606;
   color: white;
   padding: 10px 15px;
@@ -42,7 +42,7 @@ header, footer {
   font-size: 1.5em;
   text-decoration: underline;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
 .sidebar ul {

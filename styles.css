@@ -10,19 +10,19 @@ header, footer {
   justify-content: space-between;
   align-items: center;
   background-color: #444444;
-  padding: 0 0 0px 225px;
+  padding: 10px;
   color: white;
+  margin-left: 200px; /* Add margin to align with the sidebar */
 }
 
 #datetime {
   margin-right: 10px;
 }
-  
+
 .header-image {
   position: fixed; /* Position the image relative to the viewport */
-  justify-content: space-between;
   top: 10px; /* Align to the top */
-  left: 10px; /* Align to the right */
+  left: 10px; /* Align to the left */
   width: 150px; /* Adjust width as needed */
   height: auto; /* Set the desired height */
 }
@@ -31,26 +31,20 @@ header, footer {
   display: flex;
   transition: margin-left 0.3s;
   min-height: 100vh;
+  flex-direction: column;
+  margin-left: 200px; /* Add margin to the left to accommodate the fixed sidebar */
 }
 
 .sidebar {
   width: 200px;
-  /*height: 200px;*/
   background-color: #060606;
   color: white;
   padding: 10px 15px;
   position: fixed;
-  top: 0;
+  top: 60px; /* Adjust the position to be below the header */
   left: 0;
-  height: 100vh; /* Full height */
+  height: calc(100vh - 60px); /* Full height minus the header */
   overflow-y: auto; /* Enable scrolling if content overflows */
-}
-
-.sidebar h2 {
-  font-size: 1.5em;
-  text-decoration: underline;
-  margin-bottom: 5px;
-  margin-top: 5px;
 }
 
 .sidebar ul {
@@ -80,8 +74,13 @@ header, footer {
 }
 
 .content-sections {
+  display: flex;
+  flex-direction: row; /* Align content sections and calendar side by side */
+  width: 100%;
+}
+
+.content-sections > section {
   flex: 1.5;
-  width: 50%;
   padding-right: 10px;
   word-wrap: break-word; /* Ensure long words break to fit within the container */
   overflow-wrap: break-word; /* For additional support in all browsers */
@@ -95,7 +94,6 @@ header, footer {
 
 .calendar iframe {
   width: 100%;
-  /*height: 600px;*/
 }
 
 main h2 {
@@ -104,6 +102,11 @@ main h2 {
 
 main p {
   line-height: 1.0;
+}
+
+.hierarchy-content {
+  width: 100%;
+  margin-top: 20px;
 }
 
 .hierarchy {
@@ -120,8 +123,8 @@ main p {
   padding: 10px;
   margin: 5px 0;
   background-color: #f4f4f4;
-  text-align: left;
-  width: 200px;
+  text-align: center;
+  width: 150px;
 }
 
 .hierarchy ul ul {

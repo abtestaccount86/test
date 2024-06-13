@@ -62,17 +62,30 @@ header, footer {
 }
 
 .main-content {
+  display: flex;
+  flex-direction: row; /* Make the main content a row to align sections and calendar side by side */
   flex: 1;
   padding: 5px;
 }
 
-.toggle-button {
-  display: none;
-} /* Hide the toggle button */
+.content-sections {
+  flex: 2; /* Give more space to content sections */
+  padding-right: 20px;
+}
+
+.calendar {
+  flex: 1; /* Allocate space for the calendar */
+}
+
+.calendar iframe {
+  width: 100%; /* Make the iframe responsive */
+  height: 600px; /* Adjust the height as needed */
+}
 
 main h2 {
   font-size: 1.5em;
 }
 
 main p {
-  line-height: 1.0;}
+  line-height: 1.0;
+}

@@ -13,10 +13,6 @@ header, footer {
   padding: 0 0 0px 5px;
   color: white;
 }
-
-#datetime {
-  margin-right: 10px;
-}
   
 .header-image {
   position: fixed; /* Position the image relative to the viewport */

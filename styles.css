@@ -15,11 +15,11 @@ header, footer {
 }
 
 #datetime {
-  margin-right: 100px;
+  margin-right: 200px;
 }
   
 .header-image {
-  postition: fixed; /* Position the image relative to the viewport */
+  position: fixed; /* Position the image relative to the viewport */
   justify-content: space-between;
   top: 10px; /* Align to the top */
   right: 10px; /* Align to the right */

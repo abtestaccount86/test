@@ -10,7 +10,7 @@ header, footer {
   justify-content: space-between;
   align-items: center;
   background-color: #444444;
-  padding: 0 0 0px 225px;
+  padding: 0 0 0px 5px;
   color: white;
 }
 
@@ -22,7 +22,7 @@ header, footer {
   position: fixed; /* Position the image relative to the viewport */
   justify-content: space-between;
   top: 10px; /* Align to the top */
-  left: 10px; /* Align to the right */
+  right: 10px; /* Align to the right */
   width: 150px; /* Adjust width as needed */
   height: auto; /* Set the desired height */
 }

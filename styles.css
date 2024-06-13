@@ -52,11 +52,11 @@ header, footer {
 }
 
 .content-sections {
-  width: 50%; /* Ensure equal width */
+  width: 60%; /* Ensure equal width */
 }
 
 .calendar {
-  width: 50%; /* Ensure equal width */
+  width: 40%; /* Ensure equal width */
 }
 
 .calendar iframe {

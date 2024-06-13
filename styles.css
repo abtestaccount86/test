@@ -67,6 +67,7 @@ header, footer {
 
 .content-sections {
   flex: 2; /* Give more space to content sections */
+  width: 50%;
   padding-right: 20px;
 }
 

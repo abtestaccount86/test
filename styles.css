@@ -17,7 +17,6 @@ header, footer {
   right: 10px; /* Align to the right */
   width: 50px; /* Adjust width as needed */
   height: auto; /* Set the desired height */
-  /*z-index: 999; /* Ensure it's above other content */
 }
 
 .container {
@@ -28,7 +27,6 @@ header, footer {
 
 .sidebar {
   width: 200px;
-  /* min-height: 100vh; */
   background-color: #060606;
   color: white;
   padding: 10px 15px;
@@ -41,7 +39,6 @@ header, footer {
   margin-bottom: 5px;
   margin-top: 5px;
 }
-
 
 .sidebar ul {
   list-style-type: none;
@@ -62,8 +59,7 @@ header, footer {
 }
 
 .main-content {
-  display: flex;
-  flex-direction: row; /* Make the main content a row to align sections and calendar side by side */
+  display: flex; /* Make the main content a row to align sections and calendar side by side */
   flex: 1;
   padding: 5px;
 }

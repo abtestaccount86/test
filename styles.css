@@ -6,11 +6,18 @@ body {
 }
 
 header, footer {
+  display: flex;
+  justify-conent: space_between;
+  aligh-items: center;
   background-color: #444444;
   padding: 5px;
   color: white;
 }
 
+#datetime {
+  margin-right: 20px;
+}
+  
 .header-image {
   position: fixed; /* Position the image relative to the viewport */
   top: 10px; /* Align to the top */

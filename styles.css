@@ -104,7 +104,6 @@ main p {
 
 .hierarchy {
   margin: 20px;
-  padding: 10px;
 }
 
 .hierarchy ul {
@@ -117,8 +116,8 @@ main p {
   padding: 10px;
   margin: 5px 0;
   background-color: #f4f4f4;
-  text-align: center;
-  width: 150px;
+  text-align: left;
+  width: 200px;
 }
 
 .hierarchy ul ul {

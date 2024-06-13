@@ -8,7 +8,7 @@ body {
 header, footer {
   display: flex;
   justify-content: space-between;
-  aligh-items: center;
+  align-items: center;
   background-color: #444444;
   padding: 5px;
   color: white;

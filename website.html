@@ -10,8 +10,8 @@
 <body>
   <!-- Header -->
   <header>
-    <h1>C&S Wholesale Grocers</h1>
-    <p>Strategic Sourcing</p>
+    <h1>C&S Wholesale Grocers - Strategic Sourcing</h1>
+    <p id="datetime"></p>
     <!--img src="/cibill/localimg/cswg.gif"  alt="Header Image"   class="header-image"-->
   </header>
   
@@ -71,4 +71,21 @@
     <p>&copy; 2024 [NAME]. All rights reserved.</p>
   </footer-->
 </body>
+
+  <script>
+  // Function to update the date and time
+  function updateDateTime() {
+    var datetimeElement = document.getElementById("datetime");
+    var now = new Date();
+    var dateTimeString = now.toLocaleString(); // Get the current date and time in local format
+    datetimeElement.textContent = dateTimeString; // Update the content of the element
+  }
+
+  // Call the function initially to display the current date and time
+  updateDateTime();
+
+  // Update the date and time every second
+  setInterval(updateDateTime, 1000); // Update every second
+</script>
+
 </html>

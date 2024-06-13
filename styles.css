@@ -101,3 +101,27 @@ main h2 {
 main p {
   line-height: 1.0;
 }
+
+.hierarchy {
+  margin: 20px;
+}
+
+.hierarchy ul {
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.hierarchy .box {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+  width: 150px;
+}
+
+.hierarchy ul ul {
+  margin-left: 20px;
+  border-left: 1px solid #000;
+  padding-left: 20px;
+}

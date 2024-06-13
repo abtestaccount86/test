@@ -68,7 +68,7 @@ header, footer {
 .content-sections {
   flex: 3;
   /*width: 50%;*/
-  padding-right: 20px;
+  padding-right: 0;
   word-wrap: break-word; /* Ensure long words break to fit within the container */
   overflow-wrap: break-word; /* For additional support in all browsers */
   word-break: break-word; /* For additional support in all browsers */

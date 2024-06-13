@@ -70,6 +70,8 @@ header, footer {
   width: 50%;
   padding-right: 20px;
   word-wrap: break-word; /* Ensure long words break to fit within the container */
+  overflow-wrap: break-word; /* For additional support in all browsers */
+  word-break: break-word; /* For additional support in all browsers */
 }
 
 .calendar {

@@ -7,7 +7,7 @@ body {
 
 header, footer {
   display: flex;
-  justify-conent: space_between;
+  justify-content: space-between;
   aligh-items: center;
   background-color: #444444;
   padding: 5px;

@@ -70,4 +70,7 @@ main h2 {
 
 main p {
   line-height: 1.0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
 }

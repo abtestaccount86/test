@@ -11,17 +11,8 @@ header, footer {
   color: white;
 }
 
-.header-image {
-  position: fixed; /* Position the image relative to the viewport */
-  top: 10px; /* Align to the top */
-  right: 10px; /* Align to the right */
-  width: 50px; /* Adjust width as needed */
-  height: auto; /* Set the desired height */
-}
-
 .container {
   display: flex;
-  transition: margin-left 0.3s;
   min-height: 100vh;
 }
 
@@ -30,14 +21,6 @@ header, footer {
   background-color: #060606;
   color: white;
   padding: 10px 15px;
-  position: relative;
-}
-
-.sidebar h2 {
-  font-size: 1.5em;
-  text-decoration: underline;
-  margin-bottom: 5px;
-  margin-top: 5px;
 }
 
 .sidebar ul {
@@ -47,38 +30,29 @@ header, footer {
 }
 
 .sidebar ul li {
-  margin: 5px 0; /* Reduce the vertical margin */
-  line-height: 1.5; /* Adjust line height for more compact spacing */
+  margin: 5px 0;
+  line-height: 1.5;
 }
 
 .sidebar ul li a {
   text-decoration: none;
-  color: white; /* Maintain text color as white */
-  padding: 0; /* Reduce the padding */
-  display: block; /* Ensure links occupy the full width */
+  color: white;
+  display: block;
 }
 
 .main-content {
-  display: flex; /* Make the main content a row to align sections and calendar side by side */
+  display: flex;
   flex: 1;
   padding: 5px;
-  align-items: flex-start; /* Align items to the top */
 }
 
-.content-sections {
-  flex: 1; /* Give more space to content sections */
-  width: 50%;
-  padding-right: 20px;
-}
-
-.calendar {
-  flex: 1; /* Allocate space for the calendar */
+.content-sections, .calendar {
+  flex: 1; /* Each takes 50% of the remaining space */
 }
 
 .calendar iframe {
-  flex: 1;
-  width: 50%; /* Make the iframe responsive */
-  height: 600px; /* Adjust the height as needed */
+  width: 100%; /* Make the iframe responsive within its container */
+  height: 600px;
 }
 
 main h2 {

@@ -66,17 +66,17 @@ header, footer {
 }
 
 .content-sections {
-  flex: 3;
-  /*width: 50%;*/
-  padding-right: 0;
+  flex: 1;
+  width: 50%;
+  padding-right: 10px;
   word-wrap: break-word; /* Ensure long words break to fit within the container */
   overflow-wrap: break-word; /* For additional support in all browsers */
   word-break: break-word; /* For additional support in all browsers */
 }
 
 .calendar {
-  flex: 2;
- /* width: 50%;*/
+  flex: 1;
+  width: 50%;
 }
 
 .calendar iframe {

@@ -12,9 +12,9 @@
   <header>
     <h1>Strategic Sourcing</h1>
     <p id="datetime"></p>
-    <img src="https://companieslogo.com/img/orig/c-s-wholesale-grocers_BIG.D-03c37330.png?t=1699069881" alt="Header Image" class="header-image">
+    <img src="https://companieslogo.com/img/orig/c-s-wholesale-grocers_BIG.D-03c37330.png?t=1699069881"  alt="Header Image"   class="header-image">
   </header>
-
+  
   <!-- Main content with sidebar -->
   <div class="container">
     <!-- Sidebar -->
@@ -66,7 +66,7 @@
         <iframe src="https://calendar.google.com/calendar/embed?src=strategicsourcing%40cswg.com&ctz=America%2FNew_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
-  </div>
+    </div>
 
   <!-- Department Hierarchy -->
   <section id="hierarchy">
@@ -96,4 +96,21 @@
     </div>
   </section>
 </body>
+  
+  <script>
+  // Function to update the date and time
+  function updateDateTime() {
+    var datetimeElement = document.getElementById("datetime");
+    var now = new Date();
+    var dateTimeString = now.toLocaleString(); // Get the current date and time in local format
+    datetimeElement.textContent = dateTimeString; // Update the content of the element
+  }
+
+  // Call the function initially to display the current date and time
+  updateDateTime();
+
+  // Update the date and time every second
+  setInterval(updateDateTime, 1000); // Update every second
+</script>
+
 </html>

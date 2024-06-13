@@ -77,8 +77,7 @@
   function updateDateTime() {
     var datetimeElement = document.getElementById("datetime");
     var now = new Date();
-    var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-    var dateTimeString = day + ' ' + now.toLocaleString(); // Get the current date and time in local format
+    var dateTimeString = now.toLocaleString(); // Get the current date and time in local format
     datetimeElement.textContent = dateTimeString; // Update the content of the element
   }
 
